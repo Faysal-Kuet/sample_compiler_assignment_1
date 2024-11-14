@@ -1,0 +1,121 @@
+INCLUDE     -> slidein
+STRING      -> "vibecheck.zh"
+SINGLE_LINE_COMMENT-> // main function
+MULTI_LINE_COMMENT-> /* 
+multi
+line 
+comment
+*/
+FUNCTION    -> era
+MAIN        -> main_character
+DELIMITER   -> (
+DELIMITER   -> )
+DELIMITER   -> {
+IDENTIFIER  -> bem
+IDENTIFIER  -> x
+OPERATOR    -> =
+INTEGER     -> 100
+CONST       -> fr
+IDENTIFIER  -> PI
+OPERATOR    -> =
+FLOAT       -> 3.14
+ARRAY       -> squad
+IDENTIFIER  -> numbers
+OPERATOR    -> =
+DELIMITER   -> [
+INTEGER     -> 1
+DELIMITER   -> ,
+INTEGER     -> 2
+DELIMITER   -> ,
+INTEGER     -> 3
+DELIMITER   -> ]
+IF          -> vibeCheck
+DELIMITER   -> (
+IDENTIFIER  -> x
+OPERATOR    -> >
+INTEGER     -> 50
+DELIMITER   -> )
+DELIMITER   -> {
+PRINT       -> spill_tea
+STRING      -> "x is superior"
+DELIMITER   -> }
+ELSE_IF     -> aint
+DELIMITER   -> (
+IDENTIFIER  -> x
+OPERATOR    -> <
+INTEGER     -> 25
+DELIMITER   -> )
+DELIMITER   -> {
+PRINT       -> spill_tea
+STRING      -> "kinda mid ngl"
+DELIMITER   -> }
+ELSE        -> meh
+DELIMITER   -> {
+PRINT       -> spill_tea
+STRING      -> "no shot"
+DELIMITER   -> }
+FOR         -> reps
+DELIMITER   -> (
+VARIABLE    -> bet
+IDENTIFIER  -> i
+OPERATOR    -> =
+INTEGER     -> 0
+DELIMITER   -> \
+IDENTIFIER  -> i
+OPERATOR    -> <
+INTEGER     -> 10
+DELIMITER   -> \
+IDENTIFIER  -> i
+OPERATOR    -> =
+IDENTIFIER  -> i
+OPERATOR    -> +
+INTEGER     -> 1
+DELIMITER   -> )
+DELIMITER   -> {
+IF          -> vibeCheck
+DELIMITER   -> (
+IDENTIFIER  -> i
+OPERATOR    -> =
+OPERATOR    -> =
+INTEGER     -> 5
+DELIMITER   -> )
+DELIMITER   -> {
+BREAK       -> ghost
+DELIMITER   -> }
+PRINT       -> spill_tea
+vSTRING     -> `i is ${i} ${z} f`
+DELIMITER   -> }
+WHILE       -> loopin
+DELIMITER   -> (
+TRUE        -> noCap
+DELIMITER   -> )
+DELIMITER   -> {
+IF          -> vibeCheck
+DELIMITER   -> (
+IDENTIFIER  -> x
+OPERATOR    -> =
+OPERATOR    -> =
+INTEGER     -> 0
+DELIMITER   -> )
+DELIMITER   -> {
+BREAK       -> ghost
+DELIMITER   -> }
+IDENTIFIER  -> x
+OPERATOR    -> =
+IDENTIFIER  -> x
+OPERATOR    -> -
+INTEGER     -> 1
+DELIMITER   -> }
+TRY         -> test
+DELIMITER   -> {
+PRINT       -> spill_tea
+STRING      -> "slay"
+DELIMITER   -> }
+CATCH       -> caughtIn4k
+DELIMITER   -> {
+PRINT       -> spill_tea
+STRING      -> "caught lacking"
+DELIMITER   -> }
+RETURN      -> yeet
+INTEGER     -> 0
+DELIMITER   -> }
